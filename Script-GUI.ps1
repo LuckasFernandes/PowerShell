@@ -34,7 +34,7 @@ $button2           = New-Object System.Windows.Forms.Button                     
 $button2.Text      = "Stop"                                                                            #Atribui o texto ao componente Button2
 $button2.Size      = New-Object System.Drawing.Size(220,30)                                            #Atribui o valor da largura e altura respectivamente ao componente Button2
 $button2.Location  = New-Object System.Drawing.Point(10,70)                                            #Define o posicionamento do componente Button2 atribuindo a distância da margem esquerda e do topo respectivamente
-$button2.add_Click(${function:button2OnClick})                                                         #Atribuição a função $button2_OnClick para gerar a interação com o usuário
+$button2.add_Click(${function:button2OnClick})                                                         #Atribuição a função $button2OnClick para gerar a interação com o usuário
 $gui.Controls.Add($button2)                                                                            #Adiciona o item ao formulário
 
 #Atrubuindo Button3
@@ -42,7 +42,7 @@ $button3           = New-Object System.Windows.Forms.Button                     
 $button3.Text      = "Restart"                                                                         #Atribui o texto ao componente Button3
 $button3.Size      = New-Object System.Drawing.Size(220,30)                                            #Atribui o valor da largura e altura respectivamente ao componente Button3
 $button3.Location  = New-Object System.Drawing.Point(10,100)                                           #Define o posicionamento do componente Button3 atribuindo a distância da margem esquerda e do topo respectivamente
-$button3.add_Click(${function:button3OnClick})                                                         #Atribuição a função $button2_OnClick para gerar a interação com o usuário
+$button3.add_Click(${function:button3OnClick})                                                         #Atribuição a função $button2OnClick para gerar a interação com o usuário
 $gui.Controls.Add($button3)                                                                            #Adiciona o item ao formulário
 
 #Atribuindo a ação que o script executará mediante a interação do usuário
